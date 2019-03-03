@@ -1,0 +1,69 @@
+.hero-section{
+    background-image: url('images/nature.jpg');
+    position:relative;
+    padding:100px 0;
+    z-index:1;
+    background-size:cover;
+    background-position:top center;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .form-container{
+   flex-direction: column;
+   align-items: center;
+}
+.logo-container{
+    padding: 0 450px 100px 450px;
+}
+.logo-container img{
+    width: 150px;
+    height: 150px;
+}
+.wrapper .add-cart{
+    margin: 0px auto;
+    width: 200px;
+    padding-top: 100px
+}
+.wrapper .add-cart input{
+    background-color:aqua;
+}
+#no-product img{
+    margin: 0px 500px;
+    width: 300px;
+}
+label{
+    display: inline-block; 
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: center;
+} 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.list-image{
+    max-width:100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin:0 0 0 100px;
+}
+.list-wrap{
+    display: flex;
+    flex-direction: row;
+    background-origin: padding-box;
+    margin: 50px;
+    align-items: stretch;
+    background-color:lightsalmon;
+}
+.list-desc{
+    justify-content: center;
+    width: o auto;
+    margin: 100px 100px ;
+}
+.total-price{
+    display: flex;
+    flex-direction: row-reverse;
+   }
